@@ -1,2 +1,2 @@
-# template-repo
-Template Repository for folder structure and default files
+# businessname.netlify.com
+Business Name's website
