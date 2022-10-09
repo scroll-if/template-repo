@@ -1,7 +1,8 @@
 ---
 ---
-{% remote_include https://blakedavies-assets.netlify.com/no-js/js/no-js.js %}
-{% remote_include https://blakedavies-assets.netlify.com/can-touch/js/can-touch.js %}
-{% remote_include https://blakedavies-assets.netlify.com/loading-screen/js/loading-screen.js %}
-{% remote_include https://blakedavies-assets.netlify.com/menu-icon/js/menu-icon.js %}
-{% remote_include https://blakedavies-assets.netlify.com/navbar-slider/js/navbar-slider.js %}
+// GLOBAL JS //
+	{% remote_include https://scrollif-assets.netlify.app/websites/js/no-js.js %}
+	{% remote_include https://scrollif-assets.netlify.app/websites/js/can-touch.js %}
+	
+// EXTERNAL COMPONENTS //
+	{% remote_include https://scrollif-assets.netlify.app/websites/components/loading-screen/js/loading-screen.js %}
