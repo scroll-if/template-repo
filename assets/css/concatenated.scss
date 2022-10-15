@@ -11,6 +11,7 @@
 	@import "variables";
 
 /* UTILITY CSS */
+	{% remote_include https://scrollif-assets.netlify.app/websites/css/utility-css.scss %}
 	@import "utility";	
 
 /* EXTERNAL COMPONENTS */
