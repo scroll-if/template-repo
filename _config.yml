@@ -1,6 +1,6 @@
-title: Business Name
-url: https://businessname.netlify.app
-twitter: @businesstwitterusername
+title: 
+url: 
+twitter: 
 markdown: kramdown
 plugins_dir: _plugins
 data_dir: _data
