@@ -33,7 +33,6 @@
 		<!-- Declare site URL as a base and use additional fragments in CSS URL declarations (CSS / Sass does not support site level liquid tags or CSS Variables in URL declarations) -->
 
 			<base href="{{ site.url }}" />
-			<base target="_blank" />
 
 </head>
 
@@ -43,7 +42,9 @@
 
     	{% remote_include https://scrollif-assets.netlify.app/websites/components/loading-screen/html/loading-screen.html %}
 
-	{{ content }}
+	<!-- CONTENT -->
+
+		{{ content }}
 
 
 	<!-- POWERED-BY SCROLL IF -->
