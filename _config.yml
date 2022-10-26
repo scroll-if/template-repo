@@ -1,6 +1,14 @@
 title: 
 url: 
+website: 
+phone: 
+email: 
+facebook: 
+linkedin: 
+instagram: 
 twitter: 
+pinterest: 
+youtube: 
 markdown: kramdown
 plugins_dir: _plugins
 data_dir: _data

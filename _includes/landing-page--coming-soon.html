@@ -1,13 +1,18 @@
 <header style="
-			position: fixed;
-			width: 100%;
-			z-index: 9997;
-			background-color: var(--color-white);
-			padding: 15px;
-			box-shadow: var(--box-shadow);
-		">
+				position: fixed;
+				width: 100%;
+				z-index: 9997;
+				background-color: var(--color-white);
+				padding: 15px;
+				box-shadow: var(--box-shadow);
+			">
 	<div class="max-width-container">
-		<div class="flex flex-row justify-between items-end">
+		<div style="
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: flex-end;
+				">
 			<a href="{{ site.url }}">
 				<img style="
 					width: auto;
@@ -18,17 +23,6 @@
 				" 
 				src="{{ site.url }}/assets/images/logo_{{ site.title | replace: ' ', '_' | downcase }}.png" 
 				alt="{{ site.title }} Logo"/>
-				<p style="
-					color: var(--color-black);
-					font-family: var(--font-primary);
-					font-size: var(--font-l);
-					word-spacing: normal;
-					letter-spacing: 2.5px;
-					padding-left: 2.5px;
-					display: inline;
-					vertical-align: bottom;
-					line-height: 1;
-				">{{ site.title }}</p>
 			</a>
 		</div>
 	</div>
